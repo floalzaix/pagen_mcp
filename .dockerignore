@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.mcp/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+.cursor/
+.vcode/
+
+coserv.bat
+Dockerfile
+
+data/
