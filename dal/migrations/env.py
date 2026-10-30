@@ -27,7 +27,7 @@ target_metadata = None
 # ... etc.
 
 # Setting the database URL
-config.set_main_option("sqlalchemy.url", CONFIG["database_url"])
+config.set_main_option("sqlalchemy.url", CONFIG["database_url"].replace("sqlite+aiosqlite:///", "sqlite://"))
 
 
 def run_migrations_offline() -> None:
